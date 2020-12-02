@@ -17,7 +17,7 @@ module.exports = {
                 .then(m => m.delete(5000));
         }
 
-        const url = `https://instagram.com/${name}/?__a=1`;
+        const url = `https://instagram.com/${name}/`;
         
         let res; 
 
