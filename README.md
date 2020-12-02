@@ -1,3 +1,2 @@
 # Sakura-2.0
-It's a Boring Bot
-And I'm Lazy enough to code 
+It's a Boring Bot \n And I'm Lazy enough to code 
