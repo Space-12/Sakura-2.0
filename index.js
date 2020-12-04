@@ -20,7 +20,7 @@ client.on("ready", () => {
     console.log(`Hi, ${client.user.username} is now online!`);
 
     client.user.setPresence({
-        status: "online",
+        status: "idle",
         activity: {
             name: "y-help",
             type: "STREAMING"
