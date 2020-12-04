@@ -22,7 +22,7 @@ client.on("ready", () => {
     client.user.setPresence({
         status: "online",
         activity: {
-            name: "me getting developed",
+            name: "y-help",
             type: "STREAMING"
         }
     }); 
