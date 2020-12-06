@@ -33,8 +33,7 @@ module.exports = {
 	function getResult(me, clientChosen) {
 	if (me === "🎉" && clientChosen === "🤖") 
 		return "You won!";
-	} else if (me === clientChosen) {
-                return "It's a tie!"
+	
 	}
 }
 }
