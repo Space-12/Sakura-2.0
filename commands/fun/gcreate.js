@@ -9,7 +9,7 @@ module.exports = {
     category: "fun",
     description: "Bot vs You.",
     usage: "sec",
-    run:  run: async (client, message, args) => {
+    run: async (client, message, args) => {
         const embed = new MessageEmbed()
             .setColor("#ffffff")
             .setFooter(message.guild.me.displayName, client.user.displayAvatarURL)
