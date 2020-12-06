@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 const { promptMessage } = require("../../functions.js");
 
-const chooseArr = ["🎉" "🤖"];
+const chooseArr = ["🎉","🤖"];
 
 module.exports = {
     name: "nitro",
