@@ -13,7 +13,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor("#ffffff")
             .setFooter(message.guild.me.displayName, client.user.displayAvatarURL)
-            .setDescription("Add a reaction toget free nitro")
+            .setDescription("Add a reaction to get free nitro")
             .setTimestamp();
 
         const m = await message.channel.send(embed);
@@ -30,8 +30,11 @@ module.exports = {
 
         m.edit(embed);
 	
-	return "You won!";
+	function getResult(me, clientChosen) {
+	if (me === "🎉" && clientChosen === "🤖") 
+		return "You won!";
+	} else if (me === clientChosen) {
+                return "It's a tie!"
 	}
 }
-
-		
+}
