@@ -9,7 +9,7 @@ module.exports = {
     run: async (bot, message, args) => {
     const embed = new Discord.MessageEmbed()
         .setTitle('This is a test Embed.')
-        .setURL('Url here')
+        .setURL('https://www.google.com/url?sa=i&url=https%3A%2F%2Fstockfresh.com%2Froyalty-free-stock-photos%2Fwritten%2520test&psig=AOvVaw3txdKz_JBiNAY7X7YrARFB&ust=1608271813664000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCAtset1O0CFQAAAAAdAAAAABAE')
         .setAuthor('Yash')
         .setDescription('This is a test Description which we will see.')
         .setColor('#FF2D00')
