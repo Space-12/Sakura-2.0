@@ -28,11 +28,4 @@ module.exports = {
     message.channel.send(embed);
 }
 
-module.exports.config = {
-    name: "embed",
-    description: "example of an Embed.",
-    usage: "?embed",
-    accessableby: "Members",
-    aliases: []
-}
 }
